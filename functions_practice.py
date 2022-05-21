@@ -1,6 +1,3 @@
-from ast import Return, alias
-
-
 def hello():
     print('Hello, Welcome')
 
@@ -68,3 +65,7 @@ def get_max_str(*args):
     return max(args, key=len)
 
 print(get_max_str('hello', 'world','python','javascript'))
+hello()
+my_list = pack('Ham', 'Bread', 'Juice')
+eat_lunch(my_list)
+    
