@@ -35,9 +35,9 @@ def recursive_deduplicate(my_str,i=0):
       #no duplicate at current position, check next
       return recursive_deduplicate(my_str,i+1)
       
-print(recursive_deduplicate("aaaa"))
-print(recursive_deduplicate("aaba"))
-print(recursive_deduplicate("apple"))
+# print(recursive_deduplicate("aaaa"))
+# print(recursive_deduplicate("aaba"))
+# print(recursive_deduplicate("apple"))
 
 def recursive_reverse(string):
     # base case
